@@ -1,0 +1,21 @@
+{
+  "name": "mathematik-zum-virus",
+  "version": "1.0.0",
+  "description": "Berechnungen zur Kurve der gemeldeten Fälle des Covid-19-Sars in *Deutschland*.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@types/plotly.js": "1.50.0",
+    "date-fns": "2.11.0",
+    "immer": "6.0.2",
+    "plotly.js": "1.52.3",
+    "rxjs": "6.5.4"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
